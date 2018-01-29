@@ -1,0 +1,84 @@
+#global
+{
+    background-image:url('../IMAGE/fondBl.jpeg');
+	background-color:#56b1d2;
+	background-size:cover;
+	display:block;
+	text-align:center;
+	margin-top:4px auto;
+	
+	
+}
+.fond{
+	width:67%;
+	height:67%;
+	position:absolue;
+	left:20px;
+	right:20px;
+	top:300px;
+	margin-top:60px;
+	
+}
+#cortext
+{
+	color:#ffffff;
+	position:absolute;
+	left:20px;
+	right:20px;
+	top:150px;
+}
+	.L{
+	font-family:verdana,'Times New Roman',Batang,Arial,Serial;
+	font-size:100px;
+	}
+	.H1{
+		font-family:'lucida calligraphy','Times New Roman',Batang,Arial,Serial;
+		font-size:30px;
+	}
+	
+
+#amimation
+{	
+
+	position:absolute;
+	left:200px;
+	right:200px;
+	top:150px;	
+	
+}
+h1
+{
+	font-size:70px;
+	font-family:'Times new Roman','lucida calligraphy',Calibry, Arial,Serial;
+}
+#footer
+{
+    height: 75px;
+    width: 100%;
+    margin: 4px auto;
+ 
+}
+#Sgauche
+{
+    float: left;
+    height: 60px;
+    width: 30%;
+    margin: 4px;
+    border: 2px solid black;
+}
+#Sdroite
+{
+    float: right;
+    height: 60px;
+    width: 30%;
+    margin: 4px;
+    border: 2px solid black;
+}
+#Scentre
+{
+    float: center;
+    height: 60px;
+    width: 30%;
+    margin: 4px auto;
+    border: 2px solid black;
+}

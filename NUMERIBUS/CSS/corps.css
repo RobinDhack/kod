@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#menu
+{ 
+  padding: 4px;
+  color: #fff ;
+  border: 1px solid skyblue ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+    display: block;
+}
+
+body
+{
+    background-image: yellow url('/IMAGE/fondB.jpeg') right to no-repeat;
+}

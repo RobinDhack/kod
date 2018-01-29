@@ -1,0 +1,113 @@
+html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 195, 195); 
+}
+#logo{
+	width:120px;
+	height:10%;
+	margin:4px solid red block;
+}
+#lists{
+    position: absolute;
+    list-style: none;
+}
+#lists li{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding:9.5px;
+    background-color: rgb(91, 122, 207);
+    border-radius: 1px 6px 1px 6px;
+    position: relative;
+    left: 900px;
+    top: 30px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+}
+#lists li:hover{
+    transform: scaleY(1.1);
+    background-color: rgb(56, 54, 54);
+}
+#lists li:active{
+    background-color: rgb(90, 87, 87);
+}
+#banner{
+    border: 2px solid white;
+    position: relative;
+    top: 90px;
+    height: 300px;
+    background-color: rgb(93, 136, 172);
+    box-shadow: 2px 5px 4px black;
+	width:60%;
+}
+
+
+
+#diaporama{
+    background-color: beige;
+    position: absolute;
+    border: 2px solid black;
+    top: 450px;
+    left: 170px;
+    width: 1000px;
+    height: 100%;
+}
+#diaporama p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    top: 250px;
+}
+#infos{
+    position: absolute;
+    top: 1065px;
+    width: 1333px;
+    height: 272px;
+    background-color: rgb(201, 195, 195);;
+}
+#infos div{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    height: 250px;
+    width: 419px;
+    background-color: aliceblue
+}
+#infos div h1{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lien{
+    text-decoration: none;
+    position: absolute;
+    left: 145px;
+    top: 225px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(7, 66, 155);
+}
+
+
+
+
+footer{
+    position: absolute;
+    top: 1350px;
+    width: 1333px;
+    height: 250px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+footer p{
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
